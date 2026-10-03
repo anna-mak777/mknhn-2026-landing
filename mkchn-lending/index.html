@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>МКЧН-2026 — IV Межкорпоративный кейс-чемпионат по наставничеству · 10-12 ноября, Екатеринбург</title>
+<meta name="description" content="Главное событие Наставников России. Соревнование команд наставников промышленных предприятий, Форум «НОТ 2.0», бенчмаркинг-день с Чемпионом-2025 «Т Плюс». 10-12 ноября 2026, Екатеринбург, МВЦ «Экспо».">
+<meta name="keywords" content="МКЧН, наставничество, чемпионат наставников, ПРОФТРЕКЕР, НОТ 2.0, Екатеринбург 2026, кейс-чемпионат">
+<meta name="author" content="АНО «ПРОФТРЕКЕР»">
+<meta name="theme-color" content="#31263B">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="МКЧН-2026 — Главное событие Наставников России">
+<meta property="og:description" content="IV Межкорпоративный кейс-чемпионат по наставничеству. 10-12 ноября 2026, Екатеринбург, МВЦ «Экспо». Соревнование команд, Форум «НОТ 2.0», бенчмаркинг-день с Чемпионом-2025.">
+<meta property="og:image" content="assets/img/hero-team.webp">
+<meta property="og:site_name" content="МКЧН-2026">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="МКЧН-2026 — Главное событие Наставников России">
+<meta name="twitter:description" content="10-12 ноября 2026, Екатеринбург. Соревнование команд наставников, Форум НОТ 2.0, Демо-игра МКЧН.">
+<meta name="twitter:image" content="assets/img/hero-team.webp">
+
+<!-- Favicon -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============== HEADER ============== -->
+<header class="header">
+  <div class="container header-inner">
+    <a href="#top" class="logo" aria-label="МКЧН 2026">
+      <img src="assets/img/mkchn-logo.png" alt="МКЧН" class="logo-img">
+      <span class="logo-year">2026</span>
+    </a>
+    <nav class="nav">
+      <a href="#program">Программа</a>
+      <a href="#part">Участие</a>
+      <a href="#venues">Площадки</a>
+      <a href="#docs">Документы</a>
+      <a href="#partners">Партнёры</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header-cta">
+      <a href="#part" class="btn btn-primary btn-sm">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        Регистрация
+      </a>
+    </div>
+    <button type="button" class="burger" id="burger" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobile-menu">
+  <button type="button" class="mobile-menu-close" id="mobile-menu-close" aria-label="Закрыть меню">×</button>
+  <a href="#program">Программа</a>
+  <a href="#part">Участие</a>
+  <a href="#venues">Площадки</a>
+  <a href="#docs">Документы</a>
+  <a href="#partners">Партнёры</a>
+  <a href="#contacts">Контакты</a>
+  <a href="#part" class="btn btn-primary">Регистрация</a>
+</div>
+
+<!-- ============== HERO ============== -->
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="hero-eyebrow">Главное событие Наставников России</span>
+      <h1>Четвёртый<br>межкорпоративный<br>кейс-чемпионат<br>по&nbsp;наставничеству</h1>
+      <p class="hero-lead">Соревнование команд наставников промышленных предприятий, Конкурс капитанов, Проектная сессия по сообществам, Форум «НОТ 2.0», бенчмаркинг-день с Чемпионом-2025 «Т Плюс».</p>
+      <div class="hero-dates">
+        <span class="hero-chip"><span class="dot"></span>10–12 ноября 2026</span>
+        <span class="hero-chip"><span class="dot"></span>Екатеринбург</span>
+        <span class="hero-chip"><span class="dot"></span>МВЦ «ЭКСПО»</span>
+      </div>
+      <div class="hero-ctas">
+        <a href="#program" class="btn btn-dark">
+          Программа чемпионата
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#docs" class="btn btn-secondary" style="background:rgba(251,251,250,.55);backdrop-filter:blur(6px)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Скачать Положение
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo-wrap">
+        <img src="assets/img/hero-team.webp" alt="Команда-победитель МКЧН-2025 на церемонии награждения">
+      </div>
+      <div class="hero-photo-badge">
+        <strong>Чемпион МКЧН-2025</strong>
+        Свердловский филиал «Т Плюс»
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll"><span>Пролистать</span><span class="line"></span></div>
+</section>
+
+<!-- ============== ABOUT ============== -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="about-grid-split">
+      <div class="about-participants-col">
+        <span class="eyebrow">Участники 2026</span>
+        <h3 class="about-participants-title">Команды и&nbsp;индивидуальные участники</h3>
+        <div class="participants-grid">
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <div class="participant-slot"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        </div>
+        <p class="about-participants-note">Логотипы компаний-участников будут опубликованы по&nbsp;мере подтверждения</p>
+      </div>
+      <div class="about-body-col">
+        <span class="eyebrow">О чемпионате</span>
+        <h2>Соревнование Наставников федерального масштаба</h2>
+        <p class="lead">МКЧН — первое и единственное в России федеральное соревновательное движение корпоративных команд Наставников и сообщество HR-организаторов наставничества. Проводится с 2023 года.</p>
+        <p>Чемпионат реализуется в соответствии с Концепцией развития наставничества до 2030 года, поручениями Президента РФ Пр-270ГС от 25 декабря 2025 г. в рамках Национального проекта «Производительность труда».</p>
+        <p style="margin-top:28px">
+          <a href="#" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;color:#31263B;font-family:'Montserrat',sans-serif;font-weight:600;font-size:15px;padding:12px 18px;background:#F3F0F5;border-radius:999px;transition:all .2s" onmouseover="this.style.background='#EDDDC9'" onmouseout="this.style.background='#F3F0F5'">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FF3770" stroke="none"><path d="M8 5v14l11-7z"/></svg>
+            Видео о том, как это было в&nbsp;2025 году
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== METHOD + TOOLS ============== -->
+<section class="section method section-tint" id="method">
+  <div class="container">
+    <div class="method-head">
+      <span class="eyebrow">Методология</span>
+      <h2>Шесть инструментов наставничества для&nbsp;удержания персонала и&nbsp;повышения производительности труда</h2>
+      <p class="lead">Уникальная методология повышения вовлечённости, развития и оценки компетенций наставников, основанная на «субъектной модели наставника»&nbsp;©</p>
+      <p>Команды решают реальные производственные кейсы, тренируя основные инструменты наставничества:</p>
+    </div>
+    <div class="tools-grid">
+      <article class="tool-card"><div class="tool-num">01</div><div class="tool-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="11"/><line x1="11" y1="14" x2="11.01" y2="14"/></svg></div><h3 class="tool-title">Диагностика дефицитов</h3><p class="tool-desc">Выявление пробелов в компетенциях и мотивации наставляемых</p></article>
+      <article class="tool-card"><div class="tool-num">02</div><div class="tool-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 20 6"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h9"/><line x1="4" y1="12" x2="7" y2="12"/></svg></div><h3 class="tool-title">Пошаговый алгоритм</h3><p class="tool-desc">Структурированное решение производственных проблем, где необходимо наставническое воздействие</p></article>
+      <article class="tool-card"><div class="tool-num">03</div><div class="tool-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><h3 class="tool-title">Задавание вопросов</h3><p class="tool-desc">Открытые, уточняющие и развивающие вопросы в диалоге</p></article>
+      <article class="tool-card"><div class="tool-num">04</div><div class="tool-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><h3 class="tool-title">Целеполагание</h3><p class="tool-desc">Формулирование задачи в зоне ближайшего развития наставляемого</p></article>
+      <article class="tool-card"><div class="tool-num">05</div><div class="tool-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9"/><polyline points="3 4 3 12 11 12"/><circle cx="12" cy="12" r="2"/></svg></div><h3 class="tool-title">Саморефлексия</h3><p class="tool-desc">Анализ собственных действий и самосовершенствование</p></article>
+      <article class="tool-card"><div class="tool-num">06</div><div class="tool-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h8"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg></div><h3 class="tool-title">Обратная связь от&nbsp;команды</h3><p class="tool-desc">Признание коллег, разбор отклонений и предложения улучшений</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROGRAM ============== -->
+<section class="section program section-paper" id="program">
+  <div class="container">
+    <span class="eyebrow">Программа</span>
+    <h2>Мультиформатное событие<br>на площадке Чемпионата<br>«Хайтек: навыки будущего»</h2>
+    <div class="program-grid">
+      <article class="day-card day-1">
+        <div class="day-num">1</div>
+        <div class="day-weekday">Вторник</div>
+        <div class="day-date">10 ноября</div>
+        <div class="day-title">Бенчмаркинг-день с&nbsp;Чемпионом-2025</div>
+        <div class="day-venue"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Ново-Свердловская ТЭЦ · «Т Плюс»</div>
+        <ul class="day-list">
+          <li><span class="time">13:30</span><span>«Проводники тепла»: лучшая практика Чемпиона-2025</span></li>
+          <li><span class="time">15:00</span><span>Экскурсия на производство</span></li>
+          <li><span class="time">16:00</span><span>Мастер-класс по наставничеству</span></li>
+        </ul>
+        <a href="#docs" class="day-expand"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Скачать программу</a>
+      </article>
+      <article class="day-card day-2">
+        <div class="day-num">2</div>
+        <div class="day-weekday">Среда</div>
+        <div class="day-date">11 ноября</div>
+        <div class="day-title">День Мастерства и&nbsp;Сообществ</div>
+        <div class="day-venue"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>МВЦ «Экспо» · Конгресс-центр, залы 3.3 и 3.4</div>
+        <ul class="day-list">
+          <li><span class="time">09:30</span><span>Церемония приветствия, Конкурс Капитанов</span></li>
+          <li><span class="time">11:00</span><span>Сессия «Инструменты развития сообществ наставников» / День наставника в формате «Живая книга»</span></li>
+          <li><span class="time">13:00</span><span><span class="badge-new">Новинка</span>МКЧН-Игра. Демо-версия</span></li>
+          <li><span class="time">17:30</span><span>Инструктаж команд</span></li>
+        </ul>
+        <a href="#docs" class="day-expand"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Скачать программу</a>
+      </article>
+      <article class="day-card day-3">
+        <div class="day-num">3</div>
+        <div class="day-weekday">Четверг</div>
+        <div class="day-date">12 ноября</div>
+        <div class="day-title">Соревнования + Форум НОТ 2.0</div>
+        <div class="day-venue"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>МВЦ «Экспо» · Конгресс-центр, залы 3.3 и 3.4</div>
+        <ul class="day-list">
+          <li><span class="time">10:00</span><span>Полуфинал МКЧН · Пленарная сессия Форума «НОТ 2.0»</span></li>
+          <li><span class="time">13:30</span><span>Финал · Жеребьёвка супер-кейсов</span></li>
+          <li><span class="time">15:15</span><span>Презентации супер-кейсов</span></li>
+          <li><span class="time">17:00</span><span>Церемония награждения МКЧН-2026</span></li>
+          <li><span class="time">19:00</span><span>Вечерняя программа</span></li>
+        </ul>
+        <a href="#docs" class="day-expand"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Скачать программу</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PARTICIPATION ============== -->
+<section class="section part" id="part">
+  <div class="container">
+    <span class="eyebrow">Как попасть на МКЧН-2026</span>
+    <h2>Четыре формата участия</h2>
+    <p class="part-sub">Для команд предприятий, HR-специалистов и всех, кто хочет узнать методологию МКЧН изнутри.</p>
+    <div class="part-grid">
+      <article class="part-card">
+        <div class="part-head">
+          <div class="part-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <span class="badge badge-paid">Оргвзнос</span>
+        </div>
+        <h3 class="part-title">Пакет «Командный»</h3>
+        <div class="part-price">680 000&nbsp;₽</div>
+        <p class="part-desc">10 участников: 7 наставников, 2 координатора, 1 куратор.</p>
+        <ul class="part-features">
+          <li><span class="check">✓</span><span>Участие в трёхдневной программе</span></li>
+          <li><span class="check">✓</span><span>Основной командный зачёт МКЧН-2026 и&nbsp;Конкурс Капитанов</span></li>
+          <li><span class="check">✓</span><span>Программа повышения квалификации (удостоверение)</span></li>
+          <li><span class="check">✓</span><span>Сувенирный пакет каждому участнику</span></li>
+          <li><span class="check">✓</span><span>Питание на площадке</span></li>
+          <li><span class="check">✓</span><span>Трансфер от рекомендуемого отеля до площадки МКЧН</span></li>
+          <li><span class="check">✓</span><span>Безвозмездное право использования методики МКЧН на 3 года</span></li>
+          <li><span class="check">✓</span><span>Групповая фотосессия</span></li>
+        </ul>
+        <div class="part-cta">
+          <a href="#part" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            Регистрация команды
+          </a>
+          <p class="part-note"><a href="#kp-request" style="color:#31263B;border-bottom:1px dashed #6E6679;padding-bottom:1px">Запросите КП на 2027&nbsp;год →</a></p>
+        </div>
+      </article>
+      <article class="part-card">
+        <div class="part-head">
+          <div class="part-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+          <span class="badge badge-paid">Оргвзнос</span>
+        </div>
+        <h3 class="part-title">Пакет «Индивидуальный»</h3>
+        <div class="part-price">80 000&nbsp;₽</div>
+        <p class="part-desc">Формат для знакомства с методологией МКЧН и бенчмаркинга.</p>
+        <ul class="part-features">
+          <li><span class="check">✓</span><span>Участие в трёхдневной программе</span></li>
+          <li><span class="check">✓</span><span>Участие в соревновательной программе в качестве наблюдателя</span></li>
+          <li><span class="check">✓</span><span>Программа повышения квалификации (удостоверение)</span></li>
+          <li><span class="check">✓</span><span>Трансфер от рекомендуемого отеля до площадки МКЧН</span></li>
+          <li><span class="check">✓</span><span>Сувенирный пакет</span></li>
+          <li><span class="check">✓</span><span>Питание на площадке</span></li>
+          <li><span class="check">✓</span><span>Нетворкинг и экспертные сессии</span></li>
+          <li><span class="check">✓</span><span>Индивидуальная фотосессия</span></li>
+        </ul>
+        <div class="part-cta">
+          <a href="mailto:info@proftreker.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9C%D0%9A%D0%A7%D0%9D-2026" class="btn btn-primary">Подать заявку
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <p class="part-note">Заявки принимаются до&nbsp;25.10.2026</p>
+        </div>
+      </article>
+      <article class="part-card">
+        <div class="part-head">
+          <div class="part-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8"/></svg></div>
+          <span class="badge badge-free">Бесплатно</span>
+        </div>
+        <h3 class="part-title">Форум «НОТ 2.0»</h3>
+        <div class="part-price free">Бесплатно</div>
+        <p class="part-desc">12 ноября. Темы форума:</p>
+        <ul class="part-features">
+          <li><span class="check">✓</span><span>Национальная модель управления трудовыми ресурсами</span></li>
+          <li><span class="check">✓</span><span>Наставничество. Практики. Стажировки</span></li>
+          <li><span class="check">✓</span><span>Производительность труда</span></li>
+          <li><span class="check">✓</span><span>Трудовая адаптация ветеранов СВО</span></li>
+          <li><span class="check">✓</span><span>Лучшие практики предприятий и регионов РФ</span></li>
+        </ul>
+        <p style="font-size:13px;color:#6E6679;font-style:italic;line-height:1.5;margin:4px 0 0">При поддержке Министерства экономики и территориального развития Свердловской области, УрГЭУ и&nbsp;СОСПП.</p>
+        <div class="part-cta">
+          <a href="#" class="btn btn-primary" data-reg-url="forum">Регистрация
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </a>
+          <p class="part-note"><a href="#" style="color:#31263B;border-bottom:1px dashed #6E6679;padding-bottom:1px">Скачать полную программу со&nbsp;спикерами ↓</a></p>
+        </div>
+      </article>
+      <article class="part-card">
+        <div class="part-head">
+          <div class="part-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg></div>
+          <span class="badge badge-free">Бесплатно</span>
+        </div>
+        <h3 class="part-title">Демо-версия бизнес-тренажёра «МКЧН-ИГРА»</h3>
+        <div class="part-price free">Бесплатно</div>
+        <p class="part-desc">11 ноября. Коробочное решение — попробуйте формат МКЧН вживую. Количество мест ограничено.</p>
+        <ul class="part-features">
+          <li><span class="check">✓</span><span>Тренировка компетенций наставничества</span></li>
+          <li><span class="check">✓</span><span>Опыт реальной методологии МКЧН</span></li>
+          <li><span class="check">✓</span><span>Разбор эталонных решений кейсов</span></li>
+          <li><span class="check">✓</span><span>Игровая механика</span></li>
+          <li><span class="check">✓</span><span>Нетворкинг с наставниками и HR</span></li>
+        </ul>
+        <div class="part-cta">
+          <a href="#" class="btn btn-primary" data-reg-url="game">Регистрация
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </a>
+          <p class="part-note"><a href="#" style="color:#31263B;border-bottom:1px dashed #6E6679;padding-bottom:1px">Подробнее об&nbsp;игре →</a></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== VENUES ============== -->
+<section class="section section-paper venues" id="venues">
+  <div class="container">
+    <span class="eyebrow">Где проходит</span>
+    <h2 style="font-size:48px;font-weight:600;margin-bottom:56px;max-width:720px">Площадки чемпионата</h2>
+    <div class="venues-grid">
+      <article class="venue-card">
+        <div class="venue-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <h3 class="venue-title">Ново-Свердловская ТЭЦ</h3>
+        <p class="venue-addr">г. Екатеринбург · Площадка на согласовании</p>
+        <span class="venue-days">День 1 — Бенчмаркинг</span>
+        <p class="venue-desc">Бенчмаркинг-день с Чемпионом-2025 «Т Плюс»: презентация лучшей практики, экскурсия на производство, мастер-класс.</p>
+      </article>
+      <article class="venue-card">
+        <div class="venue-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/><circle cx="9" cy="9" r="1"/><circle cx="9" cy="12" r="1"/><circle cx="9" cy="15" r="1"/></svg></div>
+        <h3 class="venue-title">МВЦ «Екатеринбург-ЭКСПО»</h3>
+        <p class="venue-addr">г. Екатеринбург, бульвар Экспо, 2А · Конгресс-центр, залы 3.3 и 3.4</p>
+        <span class="venue-days">День 2 · День 3</span>
+        <p class="venue-desc">Основная программа: тренинги, Демо-игра, Полуфинал, Финал МКЧН, Форум «НОТ 2.0», церемония награждения.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== DOCUMENTS ============== -->
+<section class="section docs section-tint" id="docs">
+  <div class="container">
+    <span class="eyebrow">Документы чемпионата</span>
+    <h2>Информация для участников</h2>
+    <p class="docs-sub">Положение, Программа, Памятка — скачайте нужные файлы или сохраните закладку: раздел пополняется.</p>
+    <div class="docs-grid">
+      <article class="doc-card">
+        <div class="doc-head"><div class="doc-pdf"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div><div class="doc-title">Положение<br>о МКЧН-2026</div><div class="doc-meta">Будет опубликовано</div></div></div>
+        <span class="btn btn-disabled doc-cta">Скоро</span>
+      </article>
+      <article class="doc-card">
+        <div class="doc-head"><div class="doc-pdf"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div><div class="doc-title">Программа мероприятий<br>МКЧН-2026</div><div class="doc-meta">30.09.2026 · 294 KB · PDF</div></div></div>
+        <a href="assets/docs/programma-mkchn-2026.pdf" download class="btn btn-secondary doc-cta">Скачать PDF
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        </a>
+      </article>
+      <article class="doc-card">
+        <div class="doc-head"><div class="doc-pdf"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div><div class="doc-title">Гайд по отелям</div><div class="doc-meta">Будет опубликовано</div></div></div>
+        <span class="btn btn-disabled doc-cta">Скоро</span>
+      </article>
+      <article class="doc-card">
+        <div class="doc-head"><div class="doc-pdf"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div><div class="doc-title">Памятка участника</div><div class="doc-meta">Будет опубликовано</div></div></div>
+        <span class="btn btn-disabled doc-cta">Скоро</span>
+      </article>
+      <article class="doc-card">
+        <div class="doc-head"><div class="doc-pdf"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div><div class="doc-title">Протоколы<br>Полуфинала</div><div class="doc-meta">После чемпионата</div></div></div>
+        <span class="btn btn-disabled doc-cta">Скоро</span>
+      </article>
+      <article class="doc-card">
+        <div class="doc-head"><div class="doc-pdf"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div><div class="doc-title">Протоколы Финала</div><div class="doc-meta">После чемпионата</div></div></div>
+        <span class="btn btn-disabled doc-cta">Скоро</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PARTNERS ============== -->
+<section class="section partners" id="partners">
+  <div class="container">
+    <span class="eyebrow">При поддержке</span>
+    <h2>Институциональные партнёры</h2>
+    <div class="partners-grid">
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+      <div class="partner-card empty"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== ORGANIZER ============== -->
+<section class="section org">
+  <div class="container org-grid">
+    <div class="org-text">
+      <span class="eyebrow eyebrow-light">Кто организует</span>
+      <h2>Организатор МКЧН-2026</h2>
+      <p>АНО «Центр систем подготовки и развития персонала «ПРОФТРЕКЕР» — организация, объединившая экспертов-методологов, HR-практиков и научное сообщество вокруг темы наставничества на рабочем месте.</p>
+      <p>Автор методологии МКЧН — <strong>Макарова Анна Геннадьевна</strong>, кандидат экономических наук, генеральный директор АНО «ПРОФТРЕКЕР».</p>
+      <blockquote class="org-quote">
+        «Содействовать в становлении и развитии институциональной среды наставничества в сфере труда и практической подготовки обучающихся.»
+        <div class="org-quote-source">— Миссия сообщества МКЧН</div>
+      </blockquote>
+    </div>
+    <div class="org-logo">
+      <img src="assets/img/proftreker-light.png" alt="ПРОФТРЕКЕР — Центр систем подготовки и развития персонала">
+    </div>
+  </div>
+</section>
+
+<!-- ============== KP REQUEST FORM ============== -->
+<section class="section kp-request" id="kp-request">
+  <div class="container">
+    <div class="kp-grid">
+      <div class="kp-text">
+        <span class="eyebrow">На будущий сезон</span>
+        <h2>Запросить КП<br>на МКЧН-2027</h2>
+        <p class="kp-lead">Регистрация команд на МКЧН-2026 завершена. Оставьте заявку заранее — мы отправим коммерческое предложение и подробную программу чемпионата следующего сезона, как только она будет готова.</p>
+        <ul class="kp-benefits">
+          <li><span class="check">✓</span><span>Персональная консультация менеджера</span></li>
+          <li><span class="check">✓</span><span>Актуальный пакет условий, сроки и график</span></li>
+          <li><span class="check">✓</span><span>Приоритетное место в составе участников МКЧН-2027</span></li>
+          <li><span class="check">✓</span><span>Ответ в течение одного рабочего дня</span></li>
+        </ul>
+      </div>
+      <div class="kp-form-wrapper">
+        <form class="kp-form" id="kp-request-form" action="https://formspree.io/f/xgavgrjv" method="POST">
+          <div class="kp-form-row">
+            <label>Компания *<input type="text" name="company" placeholder="ООО «Пример»" required></label>
+            <label>ФИО *<input type="text" name="name" placeholder="Иванов Иван Иванович" required></label>
+          </div>
+          <div class="kp-form-row">
+            <label>Должность *<input type="text" name="position" placeholder="HR-директор" required></label>
+            <label>Email *<input type="email" name="email" placeholder="name@company.ru" required></label>
+          </div>
+          <div class="kp-form-row full">
+            <label>Телефон *<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+          </div>
+          <div class="kp-form-row full">
+            <label>Комментарий<textarea name="comment" placeholder="Количество участников, вопросы, пожелания…" rows="3"></textarea></label>
+          </div>
+          <input type="hidden" name="_subject" value="Запрос КП на МКЧН-2027 с сайта">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <button type="submit" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            <span class="btn-label">Отправить заявку</span>
+          </button>
+          <p class="kp-form-note">Нажимая кнопку, вы соглашаетесь с <a href="#">обработкой персональных данных</a>.</p>
+        </form>
+        <div class="kp-feedback success" id="kp-success">
+          <div class="kp-feedback-icon">✓</div>
+          <h3>Заявка принята!</h3>
+          <p>Спасибо, что проявили интерес к МКЧН-2027. Менеджер свяжется с вами в течение одного рабочего дня по указанным контактам.</p>
+          <button type="button" class="btn btn-dark" id="kp-send-another">Отправить ещё одну</button>
+        </div>
+        <div class="kp-feedback error" id="kp-error">
+          <div class="kp-feedback-icon">!</div>
+          <h3>Что-то пошло не так</h3>
+          <p>Не удалось отправить заявку. Напишите нам напрямую — ответим так же быстро.</p>
+          <a href="mailto:info@proftreker.ru?subject=Запрос КП на МКЧН-2027" class="btn btn-primary">info@proftreker.ru</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CONTACTS ============== -->
+<section class="section contacts" id="contacts">
+  <div class="container">
+    <span class="eyebrow">Связаться</span>
+    <h2>Контакты оргкомитета</h2>
+    <div class="contacts-grid">
+      <div class="contacts-list">
+        <div class="contact-item"><div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><div class="contact-label">Телефон</div><div class="contact-value"><a href="tel:+79221980375">+7 (922) 198-03-75</a></div></div></div>
+        <div class="contact-item"><div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="contact-label">Email</div><div class="contact-value"><a href="mailto:info@proftreker.ru">info@proftreker.ru</a><br><a href="mailto:ano@proftreker.ru">ano@proftreker.ru</a></div></div></div>
+        <div class="contact-item"><div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="contact-label">Адрес</div><div class="contact-value">г. Екатеринбург</div></div></div>
+        <div class="contact-item"><div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg></div>
+          <div><div class="contact-label">Сообщества</div><div class="contact-value" style="font-size:16px;font-weight:500"><a href="https://vk.ru/sredanastavnika" target="_blank" rel="noopener">ВКонтакте «Среда наставничества»</a> ·<br><a href="#" target="_blank" rel="noopener">Телеграм-канал</a></div></div></div>
+      </div>
+      <aside class="contact-side">
+        <div class="contact-side-title">Больше о движении МКЧН</div>
+        <p>Общий портал движения с историей, фото, видео и документацией прошлых чемпионатов.</p>
+        <p style="font-family:'Montserrat',sans-serif;font-weight:600;color:#31263B;font-size:16px">nastavnik-champion.ru</p>
+        <a href="https://nastavnik-champion.ru/" target="_blank" rel="noopener" class="btn btn-dark">
+          Открыть портал
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M14 10l7-7"/></svg>
+        </a>
+        <hr style="border:none;border-top:1px solid #D8D4DC;margin:12px 0">
+        <div class="contact-side-title" style="font-size:16px">Остались вопросы?</div>
+        <a href="mailto:info@proftreker.ru" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Написать организатору
+        </a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/mkchn-logo.png" alt="МКЧН">
+          <span class="year">2026</span>
+        </div>
+        <p>IV Межкорпоративный кейс-чемпионат по наставничеству. Главное событие Наставников России — 10-12 ноября 2026, Екатеринбург.</p>
+        <a href="https://nastavnik-champion.ru/" target="_blank" rel="noopener" style="color:#bcd079;font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px">Основной портал движения →</a>
+      </div>
+      <div>
+        <h4>Навигация</h4>
+        <ul class="footer-links">
+          <li><a href="#about">О чемпионате</a></li>
+          <li><a href="#program">Программа</a></li>
+          <li><a href="#part">Участие</a></li>
+          <li><a href="#venues">Площадки</a></li>
+          <li><a href="#docs">Документы</a></li>
+          <li><a href="#partners">Партнёры</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <p style="margin-bottom:8px"><strong style="color:#FBFBFA">+7 (922) 198-03-75</strong></p>
+        <p style="margin-bottom:8px">info@proftreker.ru<br>ano@proftreker.ru</p>
+        <p>г. Екатеринбург<br>АНО «ПРОФТРЕКЕР»</p>
+        <div class="footer-social">
+          <a href="https://vk.ru/sredanastavnika" target="_blank" rel="noopener" aria-label="ВКонтакте"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2zm3.07 14.27h-1.46c-.55 0-.72-.44-1.71-1.43-.86-.83-1.24-.94-1.46-.94-.3 0-.39.08-.39.5v1.31c0 .36-.11.57-1.07.57-1.58 0-3.33-.96-4.57-2.74-1.86-2.59-2.37-4.54-2.37-4.94 0-.22.08-.42.5-.42h1.46c.37 0 .51.17.65.57.72 2.07 1.92 3.88 2.42 3.88.18 0 .27-.09.27-.57V9.95c-.06-.98-.58-1.07-.58-1.42 0-.17.14-.33.37-.33h2.3c.31 0 .42.17.42.54v2.94c0 .31.14.42.22.42.18 0 .33-.11.66-.44 1.02-1.14 1.75-2.9 1.75-2.9.09-.21.25-.4.63-.4h1.46c.44 0 .54.22.44.54-.18.86-1.95 3.37-1.95 3.37-.15.25-.21.37 0 .66.16.21.68.66 1.03 1.07.63.72 1.11 1.33 1.24 1.75.14.42-.08.63-.5.63z"/></svg></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Telegram"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 1 0 22 12 10 10 0 0 0 12 2zm4.64 7.16l-1.56 7.33c-.11.52-.42.65-.85.4l-2.37-1.75-1.14 1.1a.6.6 0 0 1-.47.23l.17-2.4 4.37-3.95c.19-.17-.04-.26-.3-.09L9 12.34l-2.37-.74c-.52-.16-.53-.52.11-.77l9.26-3.57c.43-.16.81.1.65.9z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2023–2026 Макарова А.Г. · «Межкорпоративный кейс-чемпионат по наставничеству»® · Все права защищены</div>
+      <div>АНО «ПРОФТРЕКЕР» · ОГРН 1256600009885 · ИНН 6679182288</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
